@@ -1,4 +1,4 @@
-// Computes an approximation of PI.
+// Computes an approximation of PI.      added 4 additional spaces after "approximated" (5 spaces now)
 public class CalcPi {
 	public static void main(String [] args) { 
 	    
@@ -18,6 +18,6 @@ public class CalcPi {
 		}
 		 //printing the result compared to the real value of PI
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + result * 4);
+		System.out.println("pi, approximated:     " + result * 4);
 	}
 }
