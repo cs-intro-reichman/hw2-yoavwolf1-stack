@@ -14,7 +14,7 @@ public class Cheers {
         while(i < word.length()) {
             letter = word.charAt(i);
             //checks if that letter requires "a" or "an" before it
-            if(AnLetters.indexOf(letter) == -1) AorAN = "a ";
+            if(AnLetters.indexOf(letter) == -1) AorAN = "a  ";
             else AorAN = "an ";
             System.out.println("Give me " + AorAN + letter + ": " + letter + "!");
             i++;
